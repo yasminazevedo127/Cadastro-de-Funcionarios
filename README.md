@@ -27,14 +27,13 @@ No terminal, dentro da pasta do projeto:
 g++ main.cpp Funcionario.cpp Desenvolvedor.cpp Estagiario.cpp Gerente.cpp -o main
 ./main
 
-## 📝 Como usar o programa com um arquivo de entradas (`entradas.txt`)
+Como usar o programa com um arquivo de entradas (entradas.txt)
 
 Para facilitar testes ou automatizar o cadastro, você pode preparar um arquivo de texto com todas as entradas que o programa espera (simulando o que você digitaria).
 
-### Passos:
-
-1. Crie um arquivo chamado `entradas.txt` com as informações de entrada, ou utilize o já existente.
-2. Execute o programa redirecionando a entrada padrão para esse arquivo:
+Passos:
+	1.	Crie um arquivo chamado entradas.txt com as informações de entrada, ou utilize um já existente.
+	2.	Execute o programa redirecionando a entrada padrão para esse arquivo:
 
 ```bash
 ./main < entradas.txt
