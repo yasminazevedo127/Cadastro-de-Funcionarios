@@ -26,6 +26,17 @@ No terminal, dentro da pasta do projeto:
 ```bash
 g++ main.cpp Funcionario.cpp Desenvolvedor.cpp Estagiario.cpp Gerente.cpp -o main
 ```
+Ou utilize o Makefile:
+```bash
+make
+```
+
+### Executar:
+
+```bash
+./main
+```
+
 ## Como usar o programa com um arquivo de entradas (entradas.txt)
 
 Para facilitar testes ou automatizar o cadastro, você pode preparar um arquivo de texto com todas as entradas que o programa espera (simulando o que você digitaria).
